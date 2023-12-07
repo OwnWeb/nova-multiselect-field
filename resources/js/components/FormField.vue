@@ -35,6 +35,7 @@
           deselectGroupLabel=""
           :clearOnSelect="currentField.clearOnSelect || false"
           :taggable="currentField.taggable || false"
+          :dusk="currentField.attribute"
           @tag="addTag"
         >
           <template #maxElements>
